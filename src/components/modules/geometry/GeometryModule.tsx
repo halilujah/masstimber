@@ -1,7 +1,5 @@
 import { useState } from 'react'
 import { useGeometryStore } from '@/stores/geometryStore'
-import { Select } from '@/components/common/Select'
-import { Input } from '@/components/common/Input'
 import { PlanCanvas } from '@/components/editor2d/PlanCanvas'
 import { BuildingScene } from '@/components/viewer3d/BuildingScene'
 import { MousePointer, Pen, Square, Trash2, Copy } from 'lucide-react'
